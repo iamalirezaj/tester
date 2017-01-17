@@ -21,6 +21,8 @@ class Tester {
     /**
      * Tester constructor.
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $name
      * @param callable $suit
      */
@@ -34,6 +36,8 @@ class Tester {
     /**
      * Make a new test
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param callable $callback
      * @return void
      */
@@ -48,6 +52,8 @@ class Tester {
     /**
      * Excecute the tests
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $name
      */
     private function exec($name)
@@ -94,6 +100,8 @@ class Tester {
     /**
      * Error status
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @return int|null
      */
     public function error()
@@ -104,6 +112,8 @@ class Tester {
     /**
      * Success status
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @return int|null
      */
     public function success()
@@ -114,6 +124,8 @@ class Tester {
     /**
      * call a status
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $status
      * @return int|null
      */
@@ -135,6 +147,8 @@ class Tester {
     /**
      * Make a success message
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $message
      * @return mixed
      */
@@ -146,6 +160,8 @@ class Tester {
     /**
      * Make a warning message
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $message
      * @return mixed
      */
@@ -157,6 +173,8 @@ class Tester {
     /**
      * Make a new message
      *
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $message
      * @return mixed
      */
@@ -167,7 +185,9 @@ class Tester {
 
     /**
      * Make a danger message
-     *
+     * 
+     * @author Alireza Josheghani <josheghani.dev@gmail.com>
+     * @since 17 Jan 2017
      * @param $message
      * @return mixed
      */
