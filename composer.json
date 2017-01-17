@@ -1,0 +1,19 @@
+{
+  "name": "josh/tester",
+  "description": "A tester component out of the box",
+  "authors": [
+    {
+      "name": "Alireza",
+      "email": "josheghani.dev@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Josh\\Tester\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4"
+  }
+}
