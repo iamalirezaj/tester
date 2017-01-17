@@ -1,0 +1,17 @@
+<?php
+
+use Josh\Tester\Tester;
+
+require __DIR__ . '/vendor/autoload.php';
+
+new Tester('Example Tests',function (Tester $tester){
+
+    $tester->test('Example Test 1',function () use($tester) {
+        return $tester->success();
+    });
+
+    $tester->test('Example Test 2',function () use ($tester){
+        return $tester->success();
+    });
+
+});
