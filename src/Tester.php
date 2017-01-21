@@ -154,7 +154,7 @@ class Tester {
      */
     private function green($message)
     {
-        return print_r("\e[30;48;5;22m" . $message . "\e[49m\n");
+        return printf("\e[30;48;5;22m" . $message . "\e[49m\n");
     }
 
     /**
@@ -167,7 +167,7 @@ class Tester {
      */
     private function warning($message)
     {
-        return print_r("\e[30;43;5;82m" . $message . "\e[49m\n");
+        return printf("\e[30;43;5;82m" . $message . "\e[49m\n");
     }
 
     /**
@@ -180,7 +180,7 @@ class Tester {
      */
     private function line($message,$newLine = false)
     {
-        return print_r($message . ($newLine ? "\n\n" : null));
+        return printf($message . ($newLine ? "\n\n" : null));
     }
 
     /**
@@ -193,6 +193,6 @@ class Tester {
      */
     private function danger($message)
     {
-        return print_r("\e[41m" . $message . "\e[49m\n");
+        return printf("\e[41m" . $message . "\e[49m\n");
     }
 }
