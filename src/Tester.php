@@ -80,7 +80,7 @@ class Tester {
         foreach ($this->tests as $test){
 
             if(! is_null($test['title'])){
-                $this->line($index . ". " . $test['title']);
+                $this->line($index++ . ". " . $test['title']);
             }
 
             if($test['status'] === 1){
